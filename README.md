@@ -1,6 +1,6 @@
 # opsdroid skill hello
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond with a google search link.
 
 ## Requirements
 
@@ -8,25 +8,22 @@ None.
 
 ## Configuration
 
-None.
+```yaml
+- name: google-it
+  # Optional
+  engine-url: https://www.google.co.uk/  # Url of the search engine you want to use
+  query-arg: search?q=  # The uri for the search (default is for google)
+```
 
 ## Usage
 
-#### `hello`
+#### `google pomodoro technique`
 
-Says hello to the user.
+Googles "pomodoro technique".
 
-> user: hello
+> user: google pomodoro technique
 >
-> opsdroid: Hi user
-
-#### `goodbye`
-
-Says goodbye to the user.
-
-> user: bye
->
-> opsdroid: Bye user
+> opsdroid: https://www.google.co.uk/search?q=pomodoro+technique
 
 ## License
 
