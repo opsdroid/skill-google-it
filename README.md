@@ -1,4 +1,4 @@
-# opsdroid skill hello
+# opsdroid skill google it
 
 A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond with a google search link.
 
