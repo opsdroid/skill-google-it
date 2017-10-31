@@ -44,7 +44,3 @@ Googles "pomodoro technique".
 > user: google pomodoro technique
 >
 > opsdroid: https://www.google.co.uk/search?q=pomodoro+technique
-
-## License
-
-GNU General Public License Version 3 (GPLv3)
